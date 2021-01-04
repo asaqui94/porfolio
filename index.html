@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meet Arpi</title>
+        <link rel ="stylesheet" href='./resources/css/index.css'>
+        <style>
+            input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: hotpink;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+        </style>
+    </head>
+    <body class="body">
+        <!-- Banner section -->
+        <div>
+            <h1 id="intro">GET TO KNOW ARPI</h1>
+            <ul id="bar">
+                <li class="links"><a href="#codingtemple">Coding Temple</a></li>
+                <li class="links"><a href="#learnhtml">Learn HTML</a></li>
+                <li class="links"><a href="#learncss">Learn CSS</a></li>
+                <li class="links"><a href="#other">Other Pages</a></li>
+              </ul>
+        </div>
+        <!-- Layout -->
+        <div class="row">
+            <div class="column side">
+                <h2>SOME MORE STUFF ABOUT ME</h2>
+                <img id="sevilla" src="./resources/images/Sevilla.jpg" alt="Sevilla">
+                <p>This photo was taken in Plaza de España when I lived in Sevilla.
+                    During my time there, I learned to speak Spanish. I have a passion
+                    for experiencing different cultures and learning new languages.
+                    Although during this course we'll be learning computer languages,
+                    instead of human ones, I'm exciting to add them to my long list of 
+                    languages.
+                </p>
+                <p class="change">
+                <h2>MY LANGUAGES(Human/Robot)</h2>
+                <ul>
+                    <li>English (duh)</li>
+                    <li>Bangla</li>
+                    <li>Arabic</li>
+                    <li>Spanish</li>
+                    <li>Italian</li>
+                    <li>Mandarin</li>
+                    <li>Python</li>
+                    <li>CSS + HTML</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="column middle">
+                <h2>SOME STUFF ABOUT ME</h2>
+                <img id="beach" src="./resources/images/Matalascanas.JPG" alt="Beach">
+                <p>Hello world! My name is Arpita, incase you couldn't tell from the title.<br>
+                    I currently live in New York.<br>I love travelling, reading, and trying new 
+                    activities. <br>I previously worked in business sales and marketing.<br>I wanted 
+                    to switch to a career in tech because it's a field that is always growing,
+                    so I will always be able to learn and develop more skills and it's also 
+                    where our future is heading- so I'd like to keep up with the times. <br>I'm excited
+                    to get started!
+                </p>
+            </div>
+            <img id="change2" src="./resources/images/Iceland.jpg" alt="Iceland">
+        </div>
+        <div>
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="continet">Continent You Want To Visit</label>
+              <select id="continent" name="continent">
+                <option value="africa">Africa</option>
+                <option value="antarctica">Antarctica</option>
+                <option value="asia">Asia</option>
+                <option value="australia">Australia</option>
+                <option value="europe">Europe</option>
+                <option value="northamerica">North America</option>
+                <option value="southamerica">South America</option>
+              </select>
+            
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </body>
+</html>
